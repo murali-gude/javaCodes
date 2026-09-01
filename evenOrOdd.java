@@ -11,8 +11,8 @@ public class evenOrOdd {
         else{
             System.out.println("Odd Number");
         }
-    }*/
-
+    }
+// using method
      int evenOdd(int a){
         if(a%2==0){
             System.out.println("Even number");
@@ -27,6 +27,15 @@ public class evenOrOdd {
     public static void main(String[] args) {
         evenOrOdd eo = new evenOrOdd();
         eo.evenOdd(5);
-    }
+    }*/
+// using ternary
+    public static void main(String[] args) {
+    int a =10;
+    string evenOdd= (a%2==0)?"even":"odd";
+    system.out.print(evenOdd);
+    }       
+
+
+
 
 }
