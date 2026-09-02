@@ -10,7 +10,7 @@ public class leapYear {
              System.out.println(year + " is not a leap year");
          }
         
-    }*/
+    }
 
          static void leapyear(int year){
             if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0)) {
@@ -22,6 +22,12 @@ public class leapYear {
          }
          public static void main(String[] args) {
              leapyear(2003);
-         }
+         }*/
+        public static void main(String[] args) {
+            int year = 2003;
+           String result =  ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0))? "Leap year": "Not a leap year";
+           System.out.println(result);
+
+        }
 
 }
